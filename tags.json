@@ -1521,12 +1521,279 @@
           "tagType": "Folder",
           "tags": [
             {
-              "dataType": "Boolean",
               "name": "PCS-FSL-VP180-02",
-              "opcItemPath": "[PLCR100]FSL_VP180_02.Sts",
-              "opcServer": "Ignition OPC UA Server",
-              "tagType": "AtomicTag",
-              "valueSource": "opc"
+              "parameters": {
+                "Instance PLC Path": {
+                  "dataType": "String",
+                  "value": "ns=1;s=[PLCR100]FSL_VP180_02"
+                }
+              },
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "Alarms",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "IOFault",
+                      "tagType": "UdtInstance",
+                      "tags": [
+                        {
+                          "name": "Configuration",
+                          "tagType": "Folder",
+                          "tags": [
+                            {
+                              "name": "Ack Required",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Alarm Delay",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Alarm Disable",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Alarm Enable",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Alarm Exists",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Alarm Pipeline",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Alarm Shelve",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Alarm Unshelve",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Allow Disable",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Allow Shelve",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Severity",
+                              "tagType": "AtomicTag"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Status",
+                          "tagType": "Folder",
+                          "tags": [
+                            {
+                              "name": "Alarm Active",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Disabled",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Shelved",
+                              "tagType": "AtomicTag"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "TgtDisagree",
+                      "tagType": "UdtInstance",
+                      "tags": [
+                        {
+                          "name": "Configuration",
+                          "tagType": "Folder",
+                          "tags": [
+                            {
+                              "name": "Ack Required",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Alarm Delay",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Alarm Disable",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Alarm Enable",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Alarm Exists",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Alarm Pipeline",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Alarm Shelve",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Alarm Unshelve",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Allow Disable",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Allow Shelve",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Severity",
+                              "tagType": "AtomicTag"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Status",
+                          "tagType": "Folder",
+                          "tags": [
+                            {
+                              "name": "Alarm Active",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Disabled",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "Shelved",
+                              "tagType": "AtomicTag"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Command",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Maintenance",
+                      "tagType": "Folder",
+                      "tags": [
+                        {
+                          "name": "Enable Input PV",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "Enable Substitute PV",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "Set Sim Substitute PV",
+                          "tagType": "AtomicTag"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Operator",
+                      "tagType": "Folder",
+                      "tags": [
+                        {
+                          "name": "Reset",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "Simulation Mode",
+                          "tagType": "AtomicTag"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Configuration",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Description",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "name": "Status",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Alarm State Id",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Fault Id",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Has Alarm",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Input PV",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Input Target",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Mode",
+                      "tagType": "Folder",
+                      "tags": [
+                        {
+                          "name": "Operator",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "Simulation",
+                          "tagType": "AtomicTag"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Reset",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Reset Required",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Substitute PV",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Text Value",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Value",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                }
+              ],
+              "typeId": "Rockwell/GEMS/V4/CM_DIN"
             },
             {
               "dataType": "Boolean",
