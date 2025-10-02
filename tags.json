@@ -1821,6 +1821,30 @@
             },
             {
               "dataType": "Float4",
+              "name": "PCS-HC-A100-01bb",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]HC_A100_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-HC-A100-1",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]HC_A100_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-HC-A100-2",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]HC_A100_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
               "name": "PCS-HC-A110-01",
               "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]HC_A110_01.Val",
               "opcServer": "Ignition OPC UA Server",
