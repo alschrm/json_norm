@@ -1,0 +1,2596 @@
+{
+  "name": "FC-B355",
+  "tagType": "Folder",
+  "tags": [
+    {
+      "name": "B355-PilotLab",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Isolators-PLCI500",
+          "tagType": "Folder"
+        },
+        {
+          "name": "Isolators-PLCI510",
+          "tagType": "Folder"
+        },
+        {
+          "name": "Util-Nitrogen-PLCUTIL",
+          "tagType": "Folder"
+        },
+        {
+          "name": "Util-RODI-CP1",
+          "tagType": "Folder"
+        },
+        {
+          "name": "Util-Syltherm-PLCRUTIL",
+          "tagType": "Folder"
+        },
+        {
+          "name": "UtilYard-Syltherm-PLCHCF",
+          "tagType": "Folder"
+        },
+        {
+          "name": "suite100-Dryers-PLCD150",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM001",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_001",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM002",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_002",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM003",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_003",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM004",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_004",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM005",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_005",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM008",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_008",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM009",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_009",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM010",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_010",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM011",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_011",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM012",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_012",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM013",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_013",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM014",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_014",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM015",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_015",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM016",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_016",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM017",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_017",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM018",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_018",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM019",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_019",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM020",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_020",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM021",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_021",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM022",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_022",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM023",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_023",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM031",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_031",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM032",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_032",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM033",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_033",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM034",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_034",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM035",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_035",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM036",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_036",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM037",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_037",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM038",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_038",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM039",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_039",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM040",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_040",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM041",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_041",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM042",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_042",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM051",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_051",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM052",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_052",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM053",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_053",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM061",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_061",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM062",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_062",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM063",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_063",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM064",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_064",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM065",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_065",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM066",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_066",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM067",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_067",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM068",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_068",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM069",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_069",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM070",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_070",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM071",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_071",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM072",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_072",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM073",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_073",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM074",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_074",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM075",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_075",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM081",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_081",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM082",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_082",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM083",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_083",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM084",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_084",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM085",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_085",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM086",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_086",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM087",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_087",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM088",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_088",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM089",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_089",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM090",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_090",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM091",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_091",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM092",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_092",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM093",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_093",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM094",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_094",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM095",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_095",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM096",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_096",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM097",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_097",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM098",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_098",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM099",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_099",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM100",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_100",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM101",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_101",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM102",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_102",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM103",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_103",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM104",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_104",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM105",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_105",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM106",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_106",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM107",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_107",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM108",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_108",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM109",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_109",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM110",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_110",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM111",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_111",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM112",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_112",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM113",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_113",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM114",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_114",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM115",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_115",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM116",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_116",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM117",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_117",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM118",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_118",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM119",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_119",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM120",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_120",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM121",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_121",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM122",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_122",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM123",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_123",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM129",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_129",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-D150-ALARM130",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_130",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-HSB-D150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HSB_Dx50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-HSF-A150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HSF_Ax50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-HSF-A150-02",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HSF_Ax50_02",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-HSF-B150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HSF_Bx50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-HSF-B151-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HSF_Bx51_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-HSF-D150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HSF_Dx50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-HSR-A150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HSR_Ax50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-HSR-A150-02",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HSR_Ax50_02",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-HSR-D150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HSR_Dx50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-HV-D150-03",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HV_Dx50_03",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-HV-D150-04",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HV_Dx50_04",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-HV-D150-30",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HV_Dx50_30",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-HV-D150-46",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HV_Dx50_46",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-HV-D150-47",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HV_Dx50_47",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-HV-D150-51",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HV_Dx50_51",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "FD-JI-A150-02",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]JI_Ax50_02_ACT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-KS-P150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]KS_Px50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "FD-PIC-VP150-01-SET",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]PIC_VPx50_01_SET",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "FD-PIT-D150-06",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]PIT_Dx50_06_ACT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "FD-PIT-D150-07",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]PIT_Dx50_07_ACT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "FD-SC-A150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]SC_Ax50_01_ACT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "FD-SC-B150-01-ACT",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]SC_Bx50_01_ACT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "FD-SC-B151-01-ACT",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]SC_Bx51_01_ACT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "FD-TIT-D150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]TIT_Dx50_01_ACT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "FD-TIT-P150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]TIT_Px50_01_ACT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "FD-TIT-P150-01-SP",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]PID_JACK_TEMP.SP",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "FD-TT-D150-04",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]TT_Dx50_04_ACT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "FD-TV-P150-01-ACT",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]TV_Px50_01_ACT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM131",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_131",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM132",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_132",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM133",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_133",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM134",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_134",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM135",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_135",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM136",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_136",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM137",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_137",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM138",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_138",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM139",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_139",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM140",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_140",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM141",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_141",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM142",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_142",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM143",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_143",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM144",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_144",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM145",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_145",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM146",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_146",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM147",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_147",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM148",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_148",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM149",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_149",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM150",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_150",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM151",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_151",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM152",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_152",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM153",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_153",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM154",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_154",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM155",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_155",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM156",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_156",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM157",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_157",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM158",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_158",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM159",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_159",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM160",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_160",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM161",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_161",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-VP150-ALARM162",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ALARM_162",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-XY-D150-02",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]XY_Dx50_02",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-XY-D150-03",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]XY_Dx50_03",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-XY-D150-04",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]XY_Dx50_04",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-XY-D150-05",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]XY_Dx50_05",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-XY-D150-06",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]XY_Dx50_06",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-XY-D150-08",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]XY_Dx50_08",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-XY-D150-09",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]XY_Dx50_09",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-XY-D150-18",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]XY_Dx50_18",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-XY-D150-42",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]XY_Dx50_42",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-XY-E150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]XY_Ex50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-XY-P150-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]XY_Px50_01A",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-XY-P150-01B",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]XY_Px50_01B",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-XY-P150-01C",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]XY_Px50_01C",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FD-XY-P150-01D",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]XY_Px50_01D",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "FD-ZT-A150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]ZT_Ax50_01_ACT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-FSL-VP150-03",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]FSL_VPx50_03",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PCS-HS-VP150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]HS_VPx50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-II-VP150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]II_VPx50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-KI-VP150-02",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]KI_VPx50_02",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-PI-VP150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]PI_VPx50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PCS-PIC-VP150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]PIC_VPx50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PCS-PIC-VP150-01-STA",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]PIC_VPx50_01_S",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-PIT-VP150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]PIT_VPx50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-SI-VP150-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]SI_VPx50_01A",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-SI-VP150-01B",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]SI_VPx50_01B",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TI-VP150-05A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]TI_VPx50_05A",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TT-VP150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]TT_VPx50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PCS-YA-VP150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]YA_VPx50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PCS-YS-VP150-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCD150]YS_VPx50_01",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "name": "suite100-ReactorsGlass-PLCR100",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "PCS-FSL-VP180-02",
+              "opcItemPath": "[PLCR100]FSL_VP180_02.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-FSL-VP180-03",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]FSL_VP180_03.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-HA-VP180-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]HA_VP180_01.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-HC-A100-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]HC_A100_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-HC-A110-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]HC_A110_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-HC-A120-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]HC_A120_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-HS-P100-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]HS_P100_01A.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-HS-P101-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]HS_P101_01A.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-HS-P110-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]HS_P110_01A.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-HS-P111-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]HS_P111_01A.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-HS-P120-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]HS_P120_01A.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-HS-P121-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]HS_P121_01A.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-II-VP180-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]II_VP180_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-JIT-A100-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]JIT_A100_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-JIT-A110-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]JIT_A110_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-JIT-A120-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]JIT_A120_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-JIT-P101-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]JIT_P101_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-JIT-P110-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]JIT_P110_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-JIT-P111-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]JIT_P111_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-JIT-P120-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]JIT_P120_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-JIT-P121-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]JIT_P121_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-KI-VP180-02",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]KI_VP180_02.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-LSH-F180-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]LSH_F180_01.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-LSHH-F180-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]LSHH_F180_01.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-LT-V180-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]LT_V180_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-P-100",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]P_100.Sts_Running",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-P-101",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]P_101.Sts_Running",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-P-110",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]P_110.Sts_Running",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-P-111",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]P_111.Sts_Running",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-P-120",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]P_120.Sts_Running",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-P-121",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]P_121.Sts_Running",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-PAH-VP180-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PAH_VP180_01.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-PAHH-VP180-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PAHH_VP180_01.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-PI-VP180-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PI_VP180_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-PIC-R100-01-SP",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PIC_R100_01.Val_SP",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-PIC-R110-01-SP",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PIC_R110_01.Val_SP",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-PIC-R120-01-SP",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PIC_R120_01.Val_SP",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-PIT-R100-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PIT_R100_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-PIT-R110-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PIT_R110_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-PIT-R120-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PIT_R120_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-PIT-VP180-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PIT_VP180_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-PSS-V180-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PSS_V180_01.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-PV-E100-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PV_E100_01A.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-PV-E110-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PV_E110_01A.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-PV-E120-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PV_E120_01A.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-PY-E100-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PY_E100_01.PSet_CV",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-PY-E110-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PY_E110_01.PSet_CV",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-PY-E120-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]PY_E120_01.PSet_CV",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-SI-A100-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]SI_A100_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-SI-A100-01-RPM",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]SI_A100_01_RPM.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-SI-A110-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]SI_A110_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-SI-A110-01-RPM",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]SI_A110_01_RPM.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-SI-A120-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]SI_A120_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-SI-A120-01-RPM",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]SI_A120_01_RPM.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-SI-VP180-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]SI_VP180_01A.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-SI-VP180-01B",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]SI_VP180_01B.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-TAH-VP180-05",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TAH_VP180_05.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-TAHH-VP180-05",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TAHH_VP180_05.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TI-VP180-05",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TI_VP180_05.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TI-VP180-05A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TI_VP180_05A.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIC-E181-03-SP",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIC_E181_03.Val_SP",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIC-P101-01-SP",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIC_P101_01.Val_SP",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIC-P111-01-SP",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIC_P111_01.Val_SP",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIC-P121-01-SP",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIC_P121_01.Val_SP",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIC-R100-01-SP",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIC_R100_01.Val_SP",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIC-R110-01-SP",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIC_R110_01.Val_SP",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIC-R120-01-SP",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIC_R120_01.Val_SP",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-E100-02",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_E100_02.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-E100-04",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_E100_04.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-E110-02",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_E110_02.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-E110-04",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_E110_04.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-E120-02",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_E120_02.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-E120-04",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_E120_04.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-E181-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_E181_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-E181-03",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_E181_03.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-P100-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_P100_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-P101-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_P101_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-P110-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_P110_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-P111-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_P111_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-P120-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_P120_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-P121-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_P121_01.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-R100-02",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_R100_02.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-R100-03",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_R100_03.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-R100-04",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_R100_04.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-R100-05",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_R100_05.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-R110-02",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_R110_02.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-R110-03",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_R110_03.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-R110-04",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_R110_04.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-R110-05",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_R110_05.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-R120-02",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_R120_02.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-R120-03",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_R120_03.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-R120-04",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_R120_04.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TIT-R120-05",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TIT_R120_05.Val",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TV-E181-03",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TV_E181_03.PSet_CV",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TV-P100-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TV_P100_01.PSet_CV",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TV-P101-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TV_P101_01.PSet_CV",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TV-P110-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TV_P110_01.PSet_CV",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TV-P111-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TV_P111_01.PSet_CV",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TV-P120-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TV_P120_01.PSet_CV",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Float4",
+              "name": "PCS-TV-P121-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]TV_P121_01.PSet_CV",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-VP-180",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]VP_180.Sts_Running",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XA-A100-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XA_A100_01.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XA-A110-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XA_A110_01.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XA-A120-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XA_A120_01.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-E180-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_E180_01.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-E181-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_E181_01A.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-E181-01B",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_E181_01B.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-P100-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_P100_01A.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-P100-01B",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_P100_01B.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-P100-01C",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_P100_01C.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-P100-01D",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_P100_01D.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-P101-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_P101_01.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-P110-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_P110_01A.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-P110-01B",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_P110_01B.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-P110-01C",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_P110_01C.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-P110-01D",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_P110_01D.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-P111-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_P111_01.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-P120-01A",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_P120_01A.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-P120-01B",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_P120_01B.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-P120-01C",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_P120_01C.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-P120-01D",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_P120_01D.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-XV-P121-01",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]XV_P121_01.Out",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-ZSC-R100-06",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]ZSC_R100_06.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-ZSC-R110-06",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]ZSC_R110_06.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-ZSC-R120-06",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]ZSC_R120_06.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-ZSO-R100-06",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]ZSO_R100_06.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-ZSO-R110-06",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]ZSO_R110_06.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "PCS-ZSO-R120-06",
+              "opcItemPath": "B355_PilotLab_PCS/B355_PilotLab_PCS/Data_Area_01:B355_PCS_Data:[PLCR100]ZSO_R120_06.Sts",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "name": "suite200-Dryers-PLCD250",
+          "tagType": "Folder"
+        },
+        {
+          "name": "suite200-ReactorsHastelloy-PLCR200",
+          "tagType": "Folder"
+        },
+        {
+          "name": "suite300-Dryers-PLCD350",
+          "tagType": "Folder"
+        },
+        {
+          "name": "suite300-ReactorsGlass-PLCR300",
+          "tagType": "Folder"
+        },
+        {
+          "name": "suiteAVD1-DryersAgitatedVacuum-PLCD400",
+          "tagType": "Folder"
+        },
+        {
+          "name": "suiteAVD2-DryersAgitatedVacuum-PLCD410",
+          "tagType": "Folder"
+        },
+        {
+          "name": "suiteCEN-Centrifuges-PLCCN400",
+          "tagType": "Folder"
+        },
+        {
+          "name": "suiteKilo1-Dryers-PLCI5",
+          "tagType": "Folder"
+        },
+        {
+          "name": "suiteKilo1-ReactorsGlass-PLCUTIL",
+          "tagType": "Folder"
+        },
+        {
+          "name": "suiteKilo2-Dryers-PLCI6",
+          "tagType": "Folder"
+        },
+        {
+          "name": "suiteKilo2-ReactorsGlass-PLCUTIL",
+          "tagType": "Folder"
+        }
+      ]
+    }
+  ]
+}
